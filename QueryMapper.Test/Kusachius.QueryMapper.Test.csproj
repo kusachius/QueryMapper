@@ -5,6 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <ReleaseVersion>1.4</ReleaseVersion>
+    <IsPackable>false</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Kusachius.QueryMapper\Kusachius.QueryMapper.csproj" />
+    <ProjectReference Include="..\QueryMapper\Kusachius.QueryMapper.csproj" />
   </ItemGroup>
 
   <ItemGroup>
